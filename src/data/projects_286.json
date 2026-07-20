@@ -1401,10 +1401,10 @@
     "category": "APIs - Data/Business",
     "technology": "Airtable API",
     "description": "Content calendar — manage posts, sync status updates, auto-generate weekly schedule",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-20",
     "codexResumeId": "",
-    "githubLink": "",
+    "githubLink": "https://github.com/breakingthebot/airtable-content-calendar",
     "notes": ""
   },
   {
