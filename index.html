@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<!-- index.html -->
+<!-- Entry point for the Build Tracker Hub page dashboard -->
+<!-- Connects to: src/styles.css, src/app.js -->
+<!-- Created: 2026-07-20 -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Master Project Build Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="src/styles.css">
+</head>
+<body class="slate-dark">
+  <div class="dashboard-wrapper">
+    <!-- Navigation Top Header -->
+    <header class="dashboard-header">
+      <div class="brand-row">
+        <span class="brand-icon">🛸</span>
+        <div class="brand-titles">
+          <h1>BuildsTracker</h1>
+          <span class="brand-sub">Master side-project portfolio & certifications tracker dashboard</span>
+        </div>
+      </div>
+
+      <!-- Main Navigation Tab Controls -->
+      <nav class="navigation-tabs">
+        <button id="tab-286" class="tab-btn active" data-list="286">
+          <span class="tab-badge">286</span> AI-286 List
+        </button>
+        <button id="tab-gcp" class="tab-btn" data-list="gcp">
+          <span class="tab-badge">60</span> GCP Cloud List
+        </button>
+        <button id="tab-clover" class="tab-btn" data-list="clover">
+          <span class="tab-badge">CL</span> Clover List
+        </button>
+      </nav>
+    </header>
+
+    <!-- Statistics Dashboard Panel -->
+    <section class="stats-overview-panel glass-panel">
+      <div class="stat-card">
+        <div class="stat-meta">
+          <span class="stat-label">Total Projects</span>
+          <span class="stat-icon-bg bg-indigo">📊</span>
+        </div>
+        <span id="stat-total" class="stat-value">0</span>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-meta">
+          <span class="stat-label">Completed</span>
+          <span class="stat-icon-bg bg-emerald">✅</span>
+        </div>
+        <span id="stat-completed" class="stat-value">0</span>
+      </div>
+
+      <div class="stat-card">
+        <div class="stat-meta">
+          <span class="stat-label">In Progress</span>
+          <span class="stat-icon-bg bg-amber">⚡</span>
+        </div>
+        <span id="stat-pending" class="stat-value">0</span>
+      </div>
+
+      <div class="stat-card progress-circle-card">
+        <div class="progress-container">
+          <svg class="progress-ring" width="80" height="80">
+            <circle class="progress-ring-bg" stroke="rgba(255,255,255,0.03)" stroke-width="6" fill="transparent" r="32" cx="40" cy="40"/>
+            <circle id="progress-indicator" class="progress-ring-fill" stroke="#6366f1" stroke-width="6" fill="transparent" r="32" cx="40" cy="40"/>
+          </svg>
+          <span id="progress-percent" class="progress-value">0%</span>
+        </div>
+        <div class="progress-meta">
+          <span class="stat-label">Overall Completion</span>
+          <span id="stat-percentage-text" class="stat-value-sub">0 of 0 done</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Workspace Controls Row -->
+    <div class="controls-row">
+      <!-- Search Input Container -->
+      <div class="search-box-container">
+        <span class="search-prefix-icon">🔍</span>
+        <input 
+          type="text" 
+          id="search-input" 
+          placeholder="Filter builds by ID, description or stack..."
+          class="search-input-field"
+        />
+        <span class="search-shortcut">Press <kbd>/</kbd></span>
+      </div>
+
+      <!-- Filters Group -->
+      <div class="filters-group">
+        <!-- Category Filter -->
+        <select id="category-filter" class="filter-select">
+          <option value="All">All Categories</option>
+        </select>
+
+        <!-- Status Filter -->
+        <select id="status-filter" class="filter-select">
+          <option value="All">All Statuses</option>
+          <option value="Not Started">Not Started</option>
+          <option value="In Progress">In Progress</option>
+          <option value="Done">Done</option>
+        </select>
+      </div>
+    </div>
+
+    <!-- Main Results Catalog Listing Grid -->
+    <main class="catalog-grid-workspace">
+      <div id="catalog-listing" class="catalog-grid">
+        <!-- Dynamic Cards render here -->
+      </div>
+      <div id="catalog-empty" class="catalog-empty-panel hidden">
+        <span class="empty-icon">📂</span>
+        <h2>No Projects Match Filters</h2>
+        <p>Try refining your search keyword or selecting a different status/category filter.</p>
+        <button id="btn-reset-filters" class="btn-primary">Reset Filters</button>
+      </div>
+    </main>
+  </div>
+
+  <!-- Detail Information Modal Sheet Overlay -->
+  <div id="details-modal" class="modal-overlay hidden">
+    <div class="modal-content glass-panel shadow-lg">
+      <header class="modal-header">
+        <div class="modal-titles">
+          <span id="modal-project-id" class="project-id-badge">Build #0</span>
+          <h2 id="modal-project-title">Project Name</h2>
+        </div>
+        <button id="modal-close" class="modal-close-btn">✕</button>
+      </header>
+
+      <div class="modal-body">
+        <div class="modal-section">
+          <h3>Description</h3>
+          <p id="modal-project-desc" class="modal-text">Project description goes here...</p>
+        </div>
+
+        <div class="modal-meta-grid">
+          <div class="meta-item">
+            <span class="meta-label">Category</span>
+            <span id="modal-project-category" class="meta-value-tag">Languages</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Tech Stack</span>
+            <span id="modal-project-tech" class="meta-value-tag">Python</span>
+          </div>
+          <div class="meta-item">
+            <span class="meta-label">Current Status</span>
+            <select id="modal-project-status" class="filter-select status-editor-select">
+              <option value="Not Started">Not Started</option>
+              <option value="In Progress">In Progress</option>
+              <option value="Done">Done</option>
+            </select>
+          </div>
+          <div id="modal-date-row" class="meta-item">
+            <span class="meta-label">Completion Date</span>
+            <span id="modal-project-date" class="meta-value-text">—</span>
+          </div>
+        </div>
+
+        <div class="modal-section link-section">
+          <h3>Integration Details</h3>
+          <div class="link-buttons-row">
+            <a id="modal-github-link" href="#" target="_blank" class="link-btn github-link-btn">
+              💻 View GitHub Repository
+            </a>
+            <span id="modal-resume-tag" class="resume-tag hidden">
+              📄 Codex Resume: <strong id="modal-resume-id">0</strong>
+            </span>
+          </div>
+        </div>
+
+        <div class="modal-section notes-section">
+          <h3>Build Notes & Details</h3>
+          <textarea id="modal-project-notes" placeholder="No details recorded. Write notes here..."></textarea>
+        </div>
+      </div>
+
+      <footer class="modal-footer">
+        <button id="btn-save-modal" class="btn-primary">Save Changes</button>
+      </footer>
+    </div>
+  </div>
+
+  <script src="src/app.js" type="module"></script>
+</body>
+</html>

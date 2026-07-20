@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "category": "CLI Tools",
+    "technology": "Python, Click",
+    "description": "Dev toolbox utility containing UUID generators, password engines, base64 coders and timestamp convert commands.",
+    "status": "Not Started"
+  },
+  {
+    "id": 2,
+    "category": "Web Applications",
+    "technology": "Vanilla JS, LocalStorage",
+    "description": "Kanban board manager featuring drag-and-drop actions, column switching, and local storage state restorations.",
+    "status": "Not Started"
+  }
+]

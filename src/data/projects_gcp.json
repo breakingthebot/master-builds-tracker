@@ -1,0 +1,542 @@
+[
+  {
+    "id": 1,
+    "category": "1. Automation & Scheduling (The Time Keepers)",
+    "technology": "Python, Cloud Run Functions, Cloud Scheduler",
+    "title": "The 12:00 PM Shift-Closer",
+    "description": "Automatically logs you out of work platforms and emails an end-of-shift summary exactly when your 4 AM shift ends",
+    "status": "Done",
+    "githubLink": "01-shift-closer"
+  },
+  {
+    "id": 2,
+    "category": "1. Automation & Scheduling (The Time Keepers)",
+    "technology": "Node",
+    "title": "Web Scraper Bot",
+    "description": "Scrapes real estate listings daily and texts you properties that drop below a specific price threshold. js, Cloud Run, Cloud Scheduler, Firestore",
+    "status": "Done",
+    "githubLink": "02-web-scraper-bot"
+  },
+  {
+    "id": 3,
+    "category": "1. Automation & Scheduling (The Time Keepers)",
+    "technology": "Go, Cloud Run Functions, Cloud Tasks",
+    "title": "Discord Webhook Alerter",
+    "description": "Monitors personal API endpoints and pings a private Discord server if your website goes offline",
+    "status": "Done",
+    "githubLink": "03-discord-webhook-alerter"
+  },
+  {
+    "id": 4,
+    "category": "1. Automation & Scheduling (The Time Keepers)",
+    "technology": "Python, Cloud Run, SendGrid API",
+    "title": "Automated Report Dispatcher",
+    "description": "Compiles monthly database statistics and emails a formatted PDF report to stakeholders",
+    "status": "Done",
+    "githubLink": "04-automated-report-dispatcher"
+  },
+  {
+    "id": 5,
+    "category": "1. Automation & Scheduling (The Time Keepers)",
+    "technology": "Node",
+    "title": "Social Media Auto-Poster",
+    "description": "Pulls drafted content from a queue and posts it to social APIs at peak global traffic hours. js, Cloud Run Functions, Cloud Tasks",
+    "status": "Done",
+    "githubLink": "05-tiktok-auto-poster (scoped to TikTok specifically — a real personal use case — instead of a generic multi-platform stub; schedule is user-configurable, not a claimed \"peak hours\" default)"
+  },
+  {
+    "id": 6,
+    "category": "1. Automation & Scheduling (The Time Keepers)",
+    "technology": "Go, Cloud Run Functions, Cloud Scheduler",
+    "title": "Dynamic DNS Updater",
+    "description": "Tracks your home's public IP changes and updates a domain DNS record automatically so your local network is always reachable",
+    "status": "Done",
+    "githubLink": "06-dynamic-dns-updater (public-IP lookup is real; the DNS provider write is mocked behind a stable interface — no real domain/DNS host targeted by this practice series yet)"
+  },
+  {
+    "id": 7,
+    "category": "1. Automation & Scheduling (The Time Keepers)",
+    "technology": "Python, Cloud Run Functions, GitHub Webhooks",
+    "title": "Git Commit Processor",
+    "description": "Triggers an automated code linting and formatting check the second you push new code to a repository",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 8,
+    "category": "1. Automation & Scheduling (The Time Keepers)",
+    "technology": "Go, Compute Engine VM",
+    "title": "Crypto Arbitrage Monitor",
+    "description": "Streams live exchange prices via WebSockets and logs multi-exchange price gaps",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 9,
+    "category": "1. Automation & Scheduling (The Time Keepers)",
+    "technology": "Python, Cloud Run, Firestore",
+    "title": "RSS Feed Aggregator",
+    "description": "Compiles 50+ tech blogs into a clean daily text summary delivered to your phone",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 10,
+    "category": "1. Automation & Scheduling (The Time Keepers)",
+    "technology": "Node",
+    "title": "IoT Telemetry Receiver",
+    "description": "Ingests temperature data from smart home sensors and logs the time-series data. js, Cloud Run, Pub/Sub",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 11,
+    "category": "2. Storage & Databases (The Vaults)",
+    "technology": "Cloud Storage (Archive Class), Lifecycle Rules",
+    "title": "The Infinite Cold Archive",
+    "description": "Automatically moves personal raw 4K video footage into ultra-low-cost archival tiers after 30 days",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 12,
+    "category": "2. Storage & Databases (The Vaults)",
+    "technology": "Cloud Storage, Signed URLs, Cloud Run",
+    "title": "Secure Portfolio Vault",
+    "description": "Encrypts and hosts static tax and identity documents, generating self-destructing links for temporary access",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 13,
+    "category": "2. Storage & Databases (The Vaults)",
+    "technology": "Firestore (Real-time listeners), Node",
+    "title": "Homeschool State Engine",
+    "description": "Syncs UI state instantly so if you log an activity on your phone, it appears on your desktop dashboard simultaneously. js",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 14,
+    "category": "2. Storage & Databases (The Vaults)",
+    "technology": "Firestore, React",
+    "title": "Dynamic Configuration Server",
+    "description": "Stores global app toggle variables (like turning on \"Demo Mode\") that update instantly across your applications without redeployment",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 15,
+    "category": "2. Storage & Databases (The Vaults)",
+    "technology": "Cloud Storage, Cloud Run Functions, Cloud SQL",
+    "title": "Automated CSV Ingester",
+    "description": "Monitors a storage bucket and parses uploaded spreadsheets straight into relational database tables",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 16,
+    "category": "2. Storage & Databases (The Vaults)",
+    "technology": "Cloud Storage, Cloud Run Functions, Node",
+    "title": "Image Processing Pipeline",
+    "description": "Triggers image compression and thumbnail resizing the exact millisecond a photo is uploaded to your app. js (Sharp)",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 17,
+    "category": "2. Storage & Databases (The Vaults)",
+    "technology": "Memorystore (Redis), Node",
+    "title": "Global Session Cache",
+    "description": "Stores active user authentication sessions in memory for lightning-fast, sub-millisecond retrieval. js",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 18,
+    "category": "2. Storage & Databases (The Vaults)",
+    "technology": "Cloud Logging, Cloud Storage Lifecycle",
+    "title": "Historical Log Archiver",
+    "description": "Compresses and stores backend system log files older than 90 days into highly durable buckets",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 19,
+    "category": "2. Storage & Databases (The Vaults)",
+    "technology": "Cloud SQL (PostgreSQL), IAM",
+    "title": "Multi-Tenant Data Isolator",
+    "description": "Implements strict row-level security so if you sell your app, User A can never accidentally query User B's data",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 20,
+    "category": "2. Storage & Databases (The Vaults)",
+    "technology": "Cloud Storage, Cloud CDN",
+    "title": "Media Streaming Backend",
+    "description": "Serves video fragments to web clients with optimized globally distributed caching",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 21,
+    "category": "3. Data & Analytics (The Crunchers)",
+    "technology": "BigQuery, SQL, Looker Studio",
+    "title": "Lifetime Wealth Dashboard",
+    "description": "Analyzes a decade of financial CSVs to track exact net-worth progression and categorize spending habits",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 22,
+    "category": "3. Data & Analytics (The Crunchers)",
+    "technology": "Cloud Logging, BigQuery, SQL",
+    "title": "Server Error Log Parser",
+    "description": "Filters out system crashes from cloud infrastructure logs to calculate real-world uptime percentages",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 23,
+    "category": "3. Data & Analytics (The Crunchers)",
+    "technology": "BigQuery, Dataflow",
+    "title": "Smart Meter Analytics",
+    "description": "Processes hourly household electricity consumption data to predict upcoming billing cycles",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 24,
+    "category": "3. Data & Analytics (The Crunchers)",
+    "technology": "BigQuery, SQL, Looker Studio",
+    "title": "SaaS Churn Predictor",
+    "description": "Tracks user login drop-off metrics over rolling 30-day windows to flag accounts likely to cancel",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 25,
+    "category": "3. Data & Analytics (The Crunchers)",
+    "technology": "BigQuery, SQL",
+    "title": "E-commerce Data Store",
+    "description": "Aggregates user purchase histories into behavioral clusters for targeted marketing",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 26,
+    "category": "3. Data & Analytics (The Crunchers)",
+    "technology": "Pub/Sub, Dataflow, BigQuery",
+    "title": "Fleet GPS Tracker",
+    "description": "Streams live vehicle coordinates and maps historical driving routes",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 27,
+    "category": "3. Data & Analytics (The Crunchers)",
+    "technology": "Cloud SQL, BigQuery, SQL",
+    "title": "Warehouse Inventory Auditor",
+    "description": "Reconciles daily physical stock scans against supply chain purchase logs",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 28,
+    "category": "3. Data & Analytics (The Crunchers)",
+    "technology": "BigQuery, Python",
+    "title": "App Store Review Aggregator",
+    "description": "Pulls historical text reviews across multiple mobile application storefronts into one table",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 29,
+    "category": "3. Data & Analytics (The Crunchers)",
+    "technology": "Pub/Sub, BigQuery, Looker Studio",
+    "title": "Site Traffic Heatmapper",
+    "description": "Records and charts raw user IP location coordinates to optimize where in the world you should deploy servers",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 30,
+    "category": "3. Data & Analytics (The Crunchers)",
+    "technology": "Pub/Sub, Dataflow, BigQuery",
+    "title": "Live Ad Click Processor",
+    "description": "Ingests millions of concurrent user clicks and aggregates conversion rates on the fly",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 31,
+    "category": "4. AI & Machine Learning (The Brains)",
+    "technology": "Cloud Storage, Vertex AI (Gemini API), Cloud Run Functions",
+    "title": "Automated PDF Sorter",
+    "description": "Uses Gemini to read messy receipt uploads, extract values, and auto-rename the file",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 32,
+    "category": "4. AI & Machine Learning (The Brains)",
+    "technology": "Cloud Run, Vertex AI (Gemini API), Speech-to-Text API",
+    "title": "Voice-to-Standard Log Engine",
+    "description": "Transcribes messy audio and maps the unstructured text directly to structured Florida state standards",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 33,
+    "category": "4. AI & Machine Learning (The Brains)",
+    "technology": "Cloud Run, GitHub Webhooks, Vertex AI",
+    "title": "Smart Code Reviewer",
+    "description": "Scans GitHub pull requests and highlights security vulnerabilities or formatting errors automatically",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 34,
+    "category": "4. AI & Machine Learning (The Brains)",
+    "technology": "Cloud Run Functions, Vertex AI, Gmail API",
+    "title": "Automated Support Triage",
+    "description": "Categorizes incoming client emails by urgency and sentiment, auto-drafting responses",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 35,
+    "category": "4. AI & Machine Learning (The Brains)",
+    "technology": "Vertex AI Search, Cloud Storage",
+    "title": "Custom Knowledge Base Search",
+    "description": "Answers user questions based strictly on an uploaded directory of private PDF manuals",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 36,
+    "category": "4. AI & Machine Learning (The Brains)",
+    "technology": "Vertex AI AutoML, BigQuery",
+    "title": "Real Estate Price Predictor",
+    "description": "Trains a custom machine learning model on local housing data to estimate property values",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 37,
+    "category": "4. AI & Machine Learning (The Brains)",
+    "technology": "Cloud Storage, Vertex AI (Gemini Multimodal)",
+    "title": "Video Chapter Generator",
+    "description": "Analyzes video files, detects scene transitions, and writes timestamped chapter outlines",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 38,
+    "category": "4. AI & Machine Learning (The Brains)",
+    "technology": "Cloud Run Functions, Vertex AI (Vision API)",
+    "title": "Image Moderation Filter",
+    "description": "Automatically flags and blocks inappropriate user-uploaded pictures",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 39,
+    "category": "4. AI & Machine Learning (The Brains)",
+    "technology": "Cloud Run, Vertex AI Translation API",
+    "title": "Language Translation Engine",
+    "description": "Converts spoken audio into text and translates it into 5 different languages simultaneously",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 40,
+    "category": "4. AI & Machine Learning (The Brains)",
+    "technology": "Cloud Run, Vertex AI (Gemini Vision)",
+    "title": "AI-Powered Recipe Generator",
+    "description": "Takes a photo of open pantry shelves and lists exact step-by-step cooking recipes based on visible ingredients",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 41,
+    "category": "5. Security & DevOps (The Workbench)",
+    "technology": "Secret Manager, Cloud Run",
+    "title": "The API Keymaster",
+    "description": "Fetches encrypted API credentials at runtime, removing plaintext secrets from codebase repositories",
+    "status": "Done",
+    "githubLink": "41-api-keymaster (built out of list order, as build #6 chronologically, to solve a real free-tier constraint hit by builds #1-5; also retrofitted builds #1-5 onto its shared app-credentials secret — see CONVENTIONS.md)"
+  },
+  {
+    "id": 42,
+    "category": "5. Security & DevOps (The Workbench)",
+    "technology": "Security Command Center, Cloud Run Functions",
+    "title": "Automated Security Scanner",
+    "description": "Regularly checks cloud infrastructure setup for open firewalls or exposed databases",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 43,
+    "category": "5. Security & DevOps (The Workbench)",
+    "technology": "Identity-Aware Proxy (IAP)",
+    "title": "Zero-Trust Identity Gateway",
+    "description": "Restricts internal application access strictly to verified Google Workspace accounts without a traditional VPN",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 44,
+    "category": "5. Security & DevOps (The Workbench)",
+    "technology": "GitHub, Cloud Build, Cloud Run",
+    "title": "Continuous Deployment Pipeline",
+    "description": "Automatically tests, containers, and deploys new code branches directly to production upon a git push",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 45,
+    "category": "5. Security & DevOps (The Workbench)",
+    "technology": "Certificate Manager, Cloud Run",
+    "title": "SSL Certificate Renewer",
+    "description": "Manages and auto-renews Let's Encrypt security certificates for custom web applications",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 46,
+    "category": "5. Security & DevOps (The Workbench)",
+    "technology": "Cloud Billing API, Pub/Sub, Cloud Run Functions",
+    "title": "Cloud Spending Guardrail",
+    "description": "Automatically shuts down resource-heavy development servers if spending breaches a strict daily threshold",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 47,
+    "category": "5. Security & DevOps (The Workbench)",
+    "technology": "Cloud Scheduler, Cloud SQL Backups",
+    "title": "Database Backup Scheduler",
+    "description": "Triggers snapshots of production databases nightly, maintaining encrypted, isolated copies",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 48,
+    "category": "5. Security & DevOps (The Workbench)",
+    "technology": "Cloud Audit Logs, BigQuery",
+    "title": "User Activity Audit Logger",
+    "description": "Records every administrative action taken inside a production system into an unalterable log trail",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 49,
+    "category": "5. Security & DevOps (The Workbench)",
+    "technology": "Cloud Run, Secret Manager",
+    "title": "Encrypted Token Verifier",
+    "description": "Validates JSON Web Tokens (JWT) server-side to secure microservice endpoints",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 50,
+    "category": "5. Security & DevOps (The Workbench)",
+    "technology": "Artifact Registry, Vulnerability Scanning",
+    "title": "Container Vulnerability Monitor",
+    "description": "Scans deployed Docker images for newly discovered OS-level exploits",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 51,
+    "category": "6. Networking (The Plumbing)",
+    "technology": "Compute Engine, VPC Firewall",
+    "title": "The Ghost Server",
+    "description": "Sets up an isolated virtual machine inaccessible to the open internet, openable only via an explicit IP whitelist",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 52,
+    "category": "6. Networking (The Plumbing)",
+    "technology": "Cloud CDN, External Load Balancing",
+    "title": "Global Speed Booster",
+    "description": "Caches static application media files at global edge network locations near the end-user",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 53,
+    "category": "6. Networking (The Plumbing)",
+    "technology": "Serverless VPC Access, Cloud NAT",
+    "title": "Single IP Public Gateway",
+    "description": "Routes all serverless backend traffic through a static outbound IP address to satisfy external API whitelists",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 54,
+    "category": "6. Networking (The Plumbing)",
+    "technology": "Global HTTP(S) Load Balancing",
+    "title": "Multi-Region Failover Router",
+    "description": "Automatically redirects user web traffic to a backup European data center if the primary US server crashes",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 55,
+    "category": "6. Networking (The Plumbing)",
+    "technology": "VPC Network Peering, Cloud Run",
+    "title": "Internal Microservices Intercom",
+    "description": "Connects isolated backend containers securely without exposing any ports to the public web",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 56,
+    "category": "6. Networking (The Plumbing)",
+    "technology": "API Gateway",
+    "title": "Private API Proxy",
+    "description": "Shields backend database entry points behind a highly scalable rate-limiting layer",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 57,
+    "category": "6. Networking (The Plumbing)",
+    "technology": "Cloud Armor, Load Balancing",
+    "title": "DDOS Shield",
+    "description": "Mitigates layer 7 distributed denial-of-service attacks using Google's global defense infrastructure",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 58,
+    "category": "6. Networking (The Plumbing)",
+    "technology": "Secure Web Proxy, VPC",
+    "title": "Outbound Traffic Filter",
+    "description": "Ensures backend applications can only communicate with pre-approved secure external domains",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 59,
+    "category": "6. Networking (The Plumbing)",
+    "technology": "Cloud VPN",
+    "title": "Corporate Cloud Bridge",
+    "description": "Connects on-premise hardware resources to Google Cloud infrastructure with high-throughput security",
+    "status": "Not Started",
+    "githubLink": ""
+  },
+  {
+    "id": 60,
+    "category": "6. Networking (The Plumbing)",
+    "technology": "Cloud DNS (Private Zones)",
+    "title": "Internal DNS Manager",
+    "description": "Customizes internal private domain naming structures across complex multi-container systems",
+    "status": "Not Started",
+    "githubLink": ""
+  }
+]
