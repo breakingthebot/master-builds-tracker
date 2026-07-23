@@ -24,5 +24,9 @@ Double click `index.html` to open it in a browser, or run inside the directory:
 npx live-server .
 ```
 
+## Deployed
+- **GitHub Pages Live Hub**: [https://breakingthebot.github.io/master-builds-tracker/](https://breakingthebot.github.io/master-builds-tracker/)
+- **GitHub Repository**: [https://github.com/breakingthebot/master-builds-tracker](https://github.com/breakingthebot/master-builds-tracker)
+
 ## Architecture Notes
 Built with a modular front-end architecture. Custom python extractor scripts read master worksheets to generate normalized JSON databases. A single controller binds query subjects, filter updates, and checkbox interactions with zero framework dependencies to optimize page load speeds.
