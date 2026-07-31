@@ -455,43 +455,43 @@
     "category": "Frontend - Other",
     "technology": "Svelte",
     "description": "Live word counter \u2014 reactive character/word/sentence count as you type, export as text file",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-25",
     "codexResumeId": "",
-    "githubLink": "",
-    "notes": ""
+    "githubLink": "https://github.com/breakingthebot/word-counter-build42",
+    "notes": "Vercel: https://word-counter-build42.vercel.app"
   },
   {
     "id": 43,
     "category": "Frontend - Other",
     "technology": "SvelteKit",
     "description": "Full stack notes app \u2014 create/edit/delete notes, tags, server side data loading",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-26",
     "codexResumeId": "",
-    "githubLink": "",
-    "notes": ""
+    "githubLink": "https://github.com/breakingthebot/sveltekit-notes-build43",
+    "notes": "Vercel: https://sveltekit-notes-build43.vercel.app"
   },
   {
     "id": 44,
     "category": "Frontend - Other",
     "technology": "Solid.js",
     "description": "Real time clock dashboard \u2014 multiple timezones, fine grained updates, no unnecessary re-renders",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-26",
     "codexResumeId": "",
-    "githubLink": "",
-    "notes": ""
+    "githubLink": "https://github.com/breakingthebot/solidjs-clock-dashboard-build44",
+    "notes": "Vercel: https://solidjs-clock-dashboard-build44.vercel.app"
   },
   {
     "id": 45,
     "category": "Frontend - Other",
     "technology": "Astro",
     "description": "Documentation site \u2014 static pages, MDX content, search, dark mode, fast load times",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-28",
     "codexResumeId": "",
-    "githubLink": "",
+    "githubLink": "https://github.com/breakingthebot/astro-docs-site-build45",
     "notes": ""
   },
   {
@@ -499,99 +499,99 @@
     "category": "Frontend - Other",
     "technology": "HTMX",
     "description": "Contact manager \u2014 add/edit/delete contacts with zero JS framework, server renders HTML fragments",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-28",
     "codexResumeId": "",
-    "githubLink": "",
-    "notes": ""
+    "githubLink": "https://github.com/breakingthebot/htmx-contact-manager-build46",
+    "notes": "Vercel: https://htmx-contact-manager-build46.vercel.app"
   },
   {
     "id": 47,
     "category": "Frontend - Other",
     "technology": "Alpine.js",
     "description": "Interactive FAQ page \u2014 accordion, tabs, modal, dropdown all with minimal JavaScript",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-28",
     "codexResumeId": "",
-    "githubLink": "",
-    "notes": ""
+    "githubLink": "https://github.com/breakingthebot/alpinejs-interactive-faq-build47",
+    "notes": "Vercel: https://alpinejs-interactive-faq-build47.vercel.app"
   },
   {
     "id": 48,
     "category": "Frontend - Other",
     "technology": "Lit",
     "description": "Reusable web component \u2014 a custom date-picker component that works in any framework",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-28",
     "codexResumeId": "",
-    "githubLink": "",
-    "notes": ""
+    "githubLink": "https://github.com/breakingthebot/lit-reusable-date-picker-build48",
+    "notes": "Vercel: https://lit-reusable-date-picker-build48.vercel.app"
   },
   {
     "id": 49,
     "category": "Frontend - Other",
     "technology": "Qwik",
     "description": "E-commerce product page \u2014 instant load, resumable state, no hydration delay",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-29",
     "codexResumeId": "",
-    "githubLink": "",
-    "notes": ""
+    "githubLink": "https://github.com/breakingthebot/qwik-ecommerce-product-page-build49",
+    "notes": "Vercel: https://qwik-ecommerce-product-page-build49.vercel.app"
   },
   {
     "id": 50,
     "category": "CSS & Styling",
     "technology": "Pure CSS",
     "description": "Responsive landing page \u2014 flexbox layout, CSS grid, animations, no JavaScript",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-29",
     "codexResumeId": "",
-    "githubLink": "",
-    "notes": ""
+    "githubLink": "https://github.com/breakingthebot/pure-css-landing-page-build50",
+    "notes": "Vercel: https://pure-css-landing-page-build50.vercel.app"
   },
   {
     "id": 51,
     "category": "CSS & Styling",
     "technology": "Sass/SCSS",
     "description": "Design system \u2014 variables, mixins, nested components, compiled to clean CSS",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-30",
     "codexResumeId": "",
-    "githubLink": "",
-    "notes": ""
+    "githubLink": "https://github.com/breakingthebot/sass-scss-design-system-build51",
+    "notes": "Vercel: https://sass-scss-design-system-build51.vercel.app"
   },
   {
     "id": 52,
     "category": "CSS & Styling",
     "technology": "Tailwind CSS",
     "description": "Admin dashboard \u2014 utility classes, responsive, dark mode, clean without writing CSS",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-30",
     "codexResumeId": "",
-    "githubLink": "",
-    "notes": ""
+    "githubLink": "https://github.com/breakingthebot/tailwind-admin-dashboard-build52",
+    "notes": "Vercel: https://tailwind-admin-dashboard-build52.vercel.app"
   },
   {
     "id": 53,
     "category": "CSS & Styling",
     "technology": "CSS Modules",
     "description": "React component library \u2014 5 reusable components with scoped styles, no class conflicts",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-30",
     "codexResumeId": "",
-    "githubLink": "",
-    "notes": ""
+    "githubLink": "https://github.com/breakingthebot/react-css-modules-library-build53",
+    "notes": "Vercel: https://react-css-modules-library-build53.vercel.app"
   },
   {
     "id": 54,
     "category": "CSS & Styling",
     "technology": "Styled Components",
     "description": "Theme-able UI kit \u2014 light/dark theme, CSS in JS, dynamic styles based on props",
-    "status": "Not Started",
-    "datePushed": "",
+    "status": "Done",
+    "datePushed": "2026-07-31",
     "codexResumeId": "",
-    "githubLink": "",
-    "notes": ""
+    "githubLink": "https://github.com/breakingthebot/styled-components-theme-uikit-build54",
+    "notes": "Vercel: https://styled-components-theme-uikit-build54.vercel.app"
   },
   {
     "id": 55,
