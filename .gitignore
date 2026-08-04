@@ -1,5 +1,7 @@
 AGENTS.md
 BUILD_NOTES.md
+notes.md
+*_notes.md
 .env
 venv/
 __pycache__/
